@@ -4,6 +4,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func crash(_ sender: UIButton) {
+        fatalError()
     }
     
     override func viewDidLoad() {
